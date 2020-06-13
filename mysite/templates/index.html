@@ -1,0 +1,2263 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css\style.css' %}">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body class="bg-dark">
+  <!-- START HERE -->
+
+    <header id="main-header">
+        <div class="row no-gutters bg-black">
+          <div class="col-lg-4 col-md-5">
+            <img class="image-fluid rounded-circle" src="{% static 'img\main1.jpg' %}" alt="">
+          </div>
+          <div class="col-lg-8  col-md-7">
+          <div class="d-flex flex-column">
+            <div class="p-2 bg-dark text-white">
+              <div class="d-flex flex-row justify-content-center pb-3">
+                <h1 class="display-3">Athmanathan Chandrasekar</h1>
+
+              </div>
+
+              <div class="d-flex flex-row justify-content-between align-items-center px-5 pb-3" >
+                <div  class="d-none d-md-block">
+                  <a href="http://twitter.com" class="text-white self-align-center"> <i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+                <div>
+                  <a href="http://facebook.com" class="text-white align-self-center"> <i class="fab fa-facebook fa-2x"></i></a>
+                </div>
+                <div>
+                  <a href="http://linkedin.com" class="text-white"> <i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+                <div>
+                  <a href="http://instagram.com" class="text-white"> <i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between align-items-center flex-wrap px-5 py-3" >
+                <a href="#"class="text-white self-align-start" ><i class="fas fa-envelope "></i> sekar_vishaal@yahoo.co.in</a>
+                <h3><a href="#"class="btn btn-outline-light btn-lg" data-target="#ljob" data-toggle="modal"><i class="fas fa-search fa-1x "></i> Looking For A Job</a></h3>
+                <a href="#"class="text-white self-align-start" ><i class="fas fa-mobile"></i> +91 -7810065537</a>
+              </div>
+
+            </div>
+            <div class="d-flex flex-row justify-content-between align-items-center flex-wrap px-5 pb-3" >
+                <div class="p-4 bg-black text-white">
+                  1.Experience in Middle Management <br>
+                  2.Experience in Production Planning <br>
+                  3.Experience in IT Programming (Analyst)
+                </div>
+
+                <div class="p-4 bg-black text-white">
+                  4.Experience in Operational Excellence(Supply Chain) <br>
+                  5.Experience in Aviation Industry Technical <br>
+                  6.Experience in CNC- Laser Programming & Operating
+
+                </div>
+            </div>
+
+              <div>
+                <div class="d-flex flex-row text-white align-items-stretch text-center bg-dark">
+                  <div class="port-item bg-secondary p-4" data-toggle="collapse" data-target="#skills">
+                    <i class="fas fa-tasks fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">My Works</span>
+                   </div>
+                  <div class="port-item bg-primary px-2 py-4" data-toggle="collapse" data-target="#education">
+                    <i class="fas fa-snowflake fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Skills & <br>Education</span>
+
+                  </div>
+                  <div class="port-item bg-info px-2 py-4" data-toggle="collapse" data-target="#photogallery" >
+                    <i class="fas fa-image fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Gallery</span>
+                  </div>
+                  <div class="port-item bg-danger p-4" data-toggle="collapse" data-target="#others">
+                    <i class="fas fa-boxes fa-2x  d-block"></i>
+                    <span class="d-none d-sm-block">Others</span>
+
+                  </div>
+
+                </div>
+              </div>
+
+
+          </div>
+        </div>
+    </div>
+
+    </header>
+
+
+
+<!--education-->
+<section id="education" class="collapse">
+
+  <div class="card card-body bg-primary text-white text-center p-3 mb-2">
+    <h1 class="display-4">My Education and Skills Page</h1>
+  </div>
+
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header text-center bg-dark">
+        <h3>
+          <a  class="text-white" href="#"> Click below buttons to know more</a>
+        </h3>
+      </div>
+    </div>
+
+
+ <div class="row">
+   <div class="col">
+   <div class="card">
+     <div class="card-header">
+      <h4 class="text-center text-white mb-0">
+        <a href="#myed" data-toggle="collapse" data-parent="#accordion">
+          <i class="fas fa-arrow-circle-down"></i>
+            Educational Qualification </a>
+      </h4>
+     </div>
+     <div id="myed" class="card-body collapse">
+
+      <div  class="row">
+          <div class="col-md-6">
+
+              <div class="card">
+                <div class="card-header text-center p-2">
+                  <img class="card-img-top" src="{% static 'img\degree.png' %}" style="width:100px;height:100px;" alt="">
+                  <h3>
+                    Master of Public Administration
+                  </h3>
+                </div>
+                <div class="card-body">
+                  <h4> <span style="font-size: 30px;font-weight: lighter;">Annamalai University <br>Chidambaram <br> Tamilnadu</span></h4>
+                </div>
+                <div class="card-footer">
+                  <h5 class="text-muted"> Year:1998-2000</h5>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header text-center p-2">
+                <img class="card-img-top" src="{% static 'img/school.png' %}"style="width:100px;height:100px;" alt="">
+                <h3>
+                  Secondary School Leaving Certificate
+                </h3>
+              </div>
+              <div class="card-body">
+                <h4> <span style="font-size: 30px;font-weight: lighter;">St. Peter's Higher Secondary School <br>Thanjavur <br> Tamilnadu</span></h4>
+              </div>
+              <div class="card-footer">
+                <h5 class="text-muted"> Year:1982</h5>
+              </div>
+          </div>
+          </div>
+      </div>
+     </div>
+   </div>
+
+
+<!--skills Section-->
+
+      <div class="row">
+        <div class="col">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="text-center text-white mb-0">
+              <a href="#itskill" data-toggle="collapse" data-parent="#accordion">
+                <i class="fas fa-arrow-circle-down"></i>
+                  My IT Skills </a>
+            </h4>
+          </div>
+          <div id="itskill" class="card-body collapse">
+            <label class="bg-light d-block text-center py-2" for=""> <h5>Web Development IT skills</h5> </label>
+            <p class="lead"> <span style="font-weight: bold;" >Note: </span>I don't have any valid certificate for my below IT skills. I spent lot of time in internet, forum, ebooks and video tutorial
+              to learn all these. Basicaly it is my hobby and the learning Journey-will continue. </p>
+            <h5>HTML</h5>
+            <div class="progress">
+              <div class="progress-bar" style="width: 75%; height: 30px;"></div>
+            </div>
+
+          <hr>
+          <h5>CSS</h5>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%; height: 30px;"></div>
+            </div>
+
+          <hr>
+          <h5>Javascript</h5>
+          <div class="progress">
+          <div class="progress-bar" style="width: 60%; height: 30px;"></div>
+          </div>
+
+          <hr>
+          <h5>Django & Python</h5>
+          <div class="progress mb-3">
+          <div class="progress-bar" style="width: 75%; height: 30px;"></div>
+        </div>
+
+        <label class="bg-light d-block text-center py-3" for=""> <h5>Microsoft Office skills</h5> </label>
+
+        <h5>MS Word, PowerPoint,Excel, Outlook</h5>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%; height: 30px;"></div>
+            </div>
+
+          <hr>
+          <h5> Excel, Access, VBA Programming </h5>
+          <div class="progress">
+          <div class="progress-bar" style="width: 85%; height: 30px;"></div>
+          </div>
+
+          <hr>
+
+          <label class="bg-light d-block text-center py-3" for=""> <h5>Desktop Application Skills</h5> </label>
+
+        <h5>VB.net(with Telerik Tools)/ Back End - Ms SQL server & MS Access</h5>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%; height: 30px;"></div>
+            </div>
+
+
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="text-center text-white mb-0">
+                  <a href="#leanskill" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i>
+                      My Lean Skills </a>
+                </h4>
+                <div id="leanskill" class="card-body collapse">
+                  <div  class="card bg-light">
+                    <div class="card-header text-white">
+                      <div id="skillheader">
+                      <div class="dark-overlay">
+                        <h4 class="display-4 text-center pt-5">Lean Six Sigma</h4>
+                        <p class="lead text-center"> On going journey</p>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="card-body">
+                    <label class="bg-primary d-block text-center text-white py-2" for=""> <h5>Lean-Journey</h5> </label>
+                    <P class="lead">The following lean tools has been learnt and exercised in the shop floor</P>
+                    <div class="row">
+                        <div class="col-md-4">
+                          <div class="card card-header">
+                          <h5>
+                            <ul>
+                              <li class="py-1">6s</li>
+                              <li class="py-1">PDCA</li>
+                              <li class="py-1">Kaizen</li>
+                              <li class="py-1">TPM</li>
+                              <li class="py-1">Standardized Work</li>
+                              <li class="py-1">Takt Time</li>
+                              <li class="py-1">Value Stream Mapping</li>
+                              <li class="py-1">Sphaghatti Diagram</li>
+                              <li class="py-1">Visual Factory</li>
+                              <li>Problem Solvings</li>
+                            </ul>
+                          </h5>
+                        </div>
+                      </div>
+
+
+                      <div class="col-md-4">
+                        <div class="card card-header">
+                          <h5>
+                          <ul>
+                            <li class="py-1">Continuos Flow</li>
+                            <li class="py-1">Ishikawa</li>
+                            <li class="py-1">Kaizen</li>
+                            <li class="py-1">Leveling Work Load</li>
+                            <li class="py-1">7 Waste</li>
+                            <li class="py-1">Just In Time (JIT)</li>
+                            <li class="py-1">KPIs (Key Performance Indexes)</li>
+                            <li class="py-1">Root Cause Analysis</li>
+                            <li class="py-1">Policy Deployment</li>
+                          </ul>
+                        </h5>
+                      </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <div class="card card-header">
+                          <h5>
+                            <ul>
+                              <li class="py-1">Voice of Customers</li>
+                              <li class="py-1">Six Sigma</li>
+                              <li class="py-1">SIPOC</li>
+                              <li class="py-1">Poke-Yoke</li>
+                              <li class="py-1">SMED(Single Minute Exchange Dies)</li>
+                              <li class="py-1">Kanban</li>
+                              <li class="py-1">DMAIC</li>
+                              <li class="py-1">8D(8 Discipline)</li>
+                              <li class="py-1">Continuous Improvement</li>
+                            </ul>
+                          </h5>
+                      </div>
+                      </div>
+                      </div>
+            <!--Green Belt Certification-->
+                    <div class="row">
+                      <div class="col">
+                        <div class="card-header mt-3">
+                          <h1 class="display-4 text-center">Green Belt Certification</h1>
+                          <img src="{% static 'img/gbcert.png' %}" alt="" class="card-img top">
+                          <small class="text-muted"> (Left) Philip Distretti -Master Black Belt at Safran,  (Middle) - I am, (Right)- Paul Clifford -MD Safran Landing Systems- Singapore</small>
+                        </div>
+                      </div>
+                    </div>
+            <!--Operational Excellence-->
+                    <div class="row">
+                      <div class="col">
+                        <div class="card-header">
+                          <div id="wight">
+                          <div class="dark-overlay1">
+                            <h4 class="display-4 text-center text-white" style="padding-top:10%;">Operational Excellence-Oliver Wight</h4>
+                            <p class="lead text-white text-center"> <strong>Supply Planning In Practice - Course completed on Mar-2015</strong> </p>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="card-body">
+                          <h4>
+
+                              <ol class="list-group list-group-flush">
+                                <li class="list-group-item pt-2 ">Supply Planning Basics</li>
+                                <li class="list-group-item  pt-2">The Integrated Supply Chain</li>
+                                <li class="list-group-item pt-2" >Master Supply Planning</li>
+                                <li class="list-group-item  pt-2">The Basics of Supply Point Planning - MRP/DRP</li>
+                                <li class="list-group-item pt-2" >Resource Management/Capacity Planning</li>
+                                <li class="list-group-item pt-2" >Master Data/Planning Parameters</li>
+                                <li class="list-group-item pt-2" >The Planner's Role in Maintaining a Valid Plan</li>
+
+                              </ol>
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!--Training Certificates Tables-->
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="text-center text-white mb-0">
+                  <a href="#mytraining" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i>
+                      My Training & Certificates </a>
+                </h4>
+              </div>
+              <div id="mytraining" class="card-body collapse">
+              <!-- Training in service-->
+                <div class="card-body">
+                  <label class="bg-light d-block text-center py-3" for=""> <h5>Naval Trainings and Certificates</h5> </label>
+                <table class="table table-striped">
+                  <thead class="thead-dark">
+                    <tr>
+                    <th>#</th>
+                    <th>Course Name</th>
+                    <th>Completed On</th>
+                    <th>Institution</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Modified Airmenship</td>
+                      <td>Jun-1987</td>
+                      <td>School For Naval Airmen, Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>2</td>
+                      <td>Naval Aircraft Maintenance Under trainee</td>
+                      <td>Sep-1987</td>
+                      <td>Naval Air Technical School, Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>3</td>
+                      <td>Qualified to Maintain Islander Aircraft</td>
+                      <td>Mar-1988</td>
+                      <td>INAS-550, Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>4</td>
+                      <td>Qualified to Sign Aircraft Maintenance work</td>
+                      <td>Dec-1988</td>
+                      <td>INAS-550, Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>5</td>
+                      <td>Modified Airmenship</td>
+                      <td>Dec-1990</td>
+                      <td>School For Naval Airmen</td>
+                    </tr>
+
+                    <tr>
+                      <td>6</td>
+                      <td>Leading Aircraft Mechanic</td>
+                      <td>Jun-1991</td>
+                      <td>Naval Air Technical School, Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>7</td>
+                      <td>Qualified to Maintain Chetak Helicopter</td>
+                      <td>Feb-1992</td>
+                      <td>Indian Naval Air Squadron 561, Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>8</td>
+                      <td>Qualified to Sign Aircraft Maintenance work</td>
+                      <td>Feb-1992</td>
+                      <td>Indian Naval Air Squadron 561, Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>9</td>
+                      <td>Petty Officer Aircraft Fitter</td>
+                      <td>Apr-1994</td>
+                      <td>Naval Air Technical School, Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>10</td>
+                      <td>Supervisory Certificate</td>
+                      <td>May-1995</td>
+                      <td>Indian Naval Air Squadron 561, Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>11</td>
+                      <td>Chief Petty Officer Aircraft Fitter</td>
+                      <td>Oct-1998</td>
+                      <td>Naval Institute of Aeronautical Technology. Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>12</td>
+                      <td>Leadership course</td>
+                      <td>Oct-1999</td>
+                      <td>INS Agrani, Coimbatore</td>
+                    </tr>
+
+                  </tbody>
+
+                </table>
+                </div>
+                <!-- Training After Retirement-->
+                <div class="card-body">
+                  <label class="bg-light d-block text-center py-3" for=""> <h5>Other Trainings in India</h5> </label>
+                <table class="table table-striped">
+                  <thead class="thead-dark">
+                    <tr>
+                    <th>#</th>
+                    <th>Course Name</th>
+                    <th>Completed On</th>
+                    <th>Institution</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Developing Solutions with Visual Basic</td>
+                      <td>July-2001</td>
+                      <td>Aptech Computer Education, Fort Kochi</td>
+                    </tr>
+
+                    <tr>
+                      <td>2</td>
+                      <td>Autocad 2002 2D Drafting, Productivity tools, 3d Modelling</td>
+                      <td>July-2002</td>
+                      <td>Integrated Software Technology, Thanjavur</td>
+                    </tr>
+
+                    <tr>
+                      <td>3</td>
+                      <td>CNC operations and Programming training program</td>
+                      <td>Aug-2002</td>
+                      <td>Science and Technology Entrepreneurs Park,Trichy</td>
+                    </tr>
+
+                    <tr>
+                      <td>4</td>
+                      <td>Programming and Operation on CNC vertical machining Centre</td>
+                      <td>Oct-2003</td>
+                      <td>Industries Service Institue, Chennai</td>
+                    </tr>
+
+                  </tbody>
+
+                </table>
+                </div>
+                <!--Training at Singapore-->
+                <div class="card-body">
+                  <label class="bg-light d-block text-center py-3" for=""> <h5>Trainings in Singapore/ Safran Landing Systems</h5> </label>
+                <table class="table table-striped">
+                  <thead class="thead-dark">
+                    <tr>
+                    <th>#</th>
+                    <th>Course Name</th>
+                    <th>Completed On</th>
+                    <th>Institution</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Airbus A320 Main Landing Gear Training</td>
+                      <td>Oct-2006</td>
+                      <td>Messier Services Asia Pte Ltd,Safran Singapore</td>
+                    </tr>
+
+                    <tr>
+                      <td>2</td>
+                      <td>Airbus A330/ A340 Main Landing Gear Training
+                        Theory of operation, fault analysis and maintenance practices
+                        </td>
+                      <td>Apr-2008</td>
+                      <td>Messier Services Asia Pte Ltd,Safran Singapore</td>
+                    </tr>
+
+                    <tr>
+                      <td>3</td>
+                      <td>Boeing B737 Next Generation Main Landing Gear Training. Theory of operation, fault analysis and maintenance practices</td>
+                      <td>Aug-2008</td>
+                      <td>Messier Services Asia Pte Ltd,Safran Singapore</td>
+                    </tr>
+
+                    <tr>
+                      <td>4</td>
+                      <td>Airbus A300/A310 Nose and Main Landing Gear Product Knowledge and Maintenance Programs</td>
+                      <td>Feb-2009</td>
+                      <td>Messier Dowty, Safran, Singapore</td>
+                    </tr>
+
+                  <tr>
+                    <td>5</td>
+                    <td>Airbus A319,A320,A321,A330,A340 Main
+                      Landing Gear theory of operation, fault analysis and maintenance practices</td>
+                    <td>Jul-2009</td>
+                    <td>Messier Dowty, Safran, Singapore</td>
+                  </tr>
+
+                  <tr>
+                  <td>6</td>
+                  <td>CCAR 145 Training
+                    </td>
+                  <td>Jul-2009</td>
+                  <td>Messier Services Asia Pte Ltd,Safran Singapore</td>
+                </tr>
+
+                <tr>
+                  <td>7</td>
+                  <td>Airbus A340/200/300 Series Centerline Gear Product Knowledge,
+                    service and maintenance training</td>
+                  <td>Nov-2009</td>
+                  <td>Messier Dowty,Singapore</td>
+                </tr>
+
+                <tr>
+                  <td>8</td>
+                  <td>SAR 145</td>
+                  <td>Mar-2009</td>
+                  <td>Safran Landing Systems, Singapore</td>
+                </tr>
+
+                <tr>
+                  <td>9</td>
+                  <td>EASA PART 145</td>
+                  <td>Apr-2010</td>
+                  <td>Safran Landing Systems, Singapore</td>
+                </tr>
+
+                <tr>
+                <td>10</td>
+                <td>Lean Sigma White Belt Training</td>
+                <td>Jun-2013</td>
+                <td>Safran Landing Systems, Singapore</td>
+              </tr>
+
+              <tr>
+                <td>11</td>
+                <td>Flight Safety Management System</td>
+                <td>Sep-2013</td>
+                <td>Safran Landing Systems, Singapore</td>
+              </tr>
+
+              <tr>
+                <td>12</td>
+                <td>Human Factors and Error Management</td>
+                <td>Aug-2014</td>
+                <td>Association of Aerospace Industries, Singapore</td>
+              </tr>
+
+              <tr>
+                <td>13</td>
+                <td>Root Cause Analysis Workshop</td>
+                <td>Sep-2014</td>
+                <td>Safran Landing Systems, Singapore</td>
+              </tr>
+
+              <tr>
+              <td>14</td>
+              <td>Lean Sigma Manager Belt</td>
+              <td>Oct-2014</td>
+              <td>Safran Landing Systems, Singapore</td>
+            </tr>
+
+            <tr>
+              <td>15</td>
+              <td>Supply Planning in Practice</td>
+              <td>Mar-2015</td>
+              <td>Oliver Wight, Singapore</td>
+            </tr>
+
+            <tr>
+              <td>16</td>
+              <td>Lean Sigma Green Belt</td>
+              <td>July-2015</td>
+              <td>Safran Corporate University, Singapore</td>
+            </tr>
+
+            <tr>
+              <td>17</td>
+              <td>Leadership Development Workshops for Managers</td>
+              <td>Aug-2015</td>
+              <td>Safran Landing Systems, Singapore</td>
+            </tr>
+
+            <tr>
+              <td>18</td>
+              <td>MF-LSC-405C-1 Apply Techniques in Supply Chain Management</td>
+              <td>July-2015</td>
+              <td>SMF center for Corporate Learning Pte. Ltd</td>
+            </tr>
+
+            <tr>
+              <td>19</td>
+              <td>Creative Problem Solving Training</td>
+              <td>Jul-2017</td>
+              <td>Professional Development Training-Singapore</td>
+            </tr>
+                  </tbody>
+
+                </table>
+                </div>
+            </div>
+           </div>
+          </div>
+       </div>
+<!---Aviation Skills-->
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="text-center text-white mb-0">
+                  <a href="#avskill" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i>
+                      Aviation Industry -Skills </a>
+                </h4>
+              </div>
+              <div id="avskill" class="card-body collapse">
+                <div class="row mt-3">
+                  <div class="col">
+                  <div class=" card card-header">
+                    <div id="aircraft">
+                    <div class="dark-overlay">
+                      <h4 class="display-4 text-left text-white pt-5 pl-3" style="padding-top:10%;">Aviation Industry Skills- Indian Naval Aircraft</h4>
+                      </div>
+                  </div>
+                  </div>
+
+
+                  <div class="card-group px-2">
+
+                    <div class="card">
+                      <img class="card-img-top" src="{% static 'img/islander.png' %}" alt="">
+                      <div class="card-header bg-danger text-white">
+                        <h5>Naval Aircraft Mechanic</h5>
+
+                      </div>
+                      <div class="card-body">
+
+                        <ul class="list-group list-group-flush">
+                        <h6> <li class="list-group-item">INAS 550- Front Line Crew</li></h6>
+                            <ul>
+                              <li>Before Flight Servicing</li>
+                              <li>Turn Roumd Servicing</li>
+                              <li>After Flight Servicing</li>
+                              <li>50 Hrs, 100 Hrs Inspection</li>
+                              <li>Configuration Changer</li>
+                              <li>Defect Investigation/ Defect Rectification</li>
+
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    <div class="card-footer text-muted">
+                      Jobs performed in Islander Aircraft
+                      INAS-550, Year 1987-1990
+                    </div>
+
+                    </div>
+
+                    <div class="card">
+                      <img class="card-img-top" src="{% static 'img/chetak.png' %}" alt="">
+                      <div class="card-header bg-danger text-white">
+                        <h5>Leading Aircraft Mechanic, A/C Maintenance Supervisor</h5>
+
+                      </div>
+                      <div class="card-body">
+
+                        <ul class="list-group list-group-flush">
+                        <h6> <li class="list-group-item"> Jobs performed in INAS-561 and INAS 321</li></h6>
+
+                            <ul>
+                              <li>Before Flight Servicing</li>
+                              <li>Turn Roumd Servicing</li>
+                              <li>After Flight Servicing</li>
+                              <li>50 Hrs, 100 Hrs Inspection</li>
+                              <li>Configuration Changer</li>
+                              <li>Defect Investigation/ Defect Rectification</li>
+
+                            </ul>
+                            <h6> <li class="list-group-item"> Jobs performed in Air Engineering Dept, Arakkonam</li></h6>
+
+                            <ul>
+                              <li>800 Hrs Inspection</li>
+                              <li>Entire A/C disassembly, Inspection, repair, parts replacement and assembly</li>
+                              <li>Flight Controls Rigging</li>
+                              <li>Vibrometer analysis</li>
+
+                            </ul>
+                          </li>
+
+                        </ul>
+                      </div>
+                    <div class="card-footer text-muted">
+                      Job performed as Lead Mechanic, Supervisor
+                    </div>
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+
+                <div class="row mt-3">
+                  <div class="col">
+                  <div class=" card card-header text-center text-white">
+                    <div id="lgear">
+                    <div class="dark-overlay">
+                      <h4 class="display-4  text-white pt-5 pl-3" style="padding-top:10%;">Commercial Aviation-Landing Gears</h4>
+                      <a class="btn btn-outline-light text-light" href="" data-toggle="modal" data-target="#jdesc"> Read More</a>
+                      </div>
+                  </div>
+                  </div>
+
+
+                  <div id="cdnorm" class="card-deck px-2">
+
+                  <div class="card">
+                      <img class="card-img-top" src="{% static 'img/320main.png' %}" alt="">
+                      <div class="card-header bg-primary text-white">
+                        <h5>A320 Main Landing Gear</h5>
+
+                      </div>
+                      <div class="card-body">
+
+                        <ul class="list-group list-group-flush">
+                        <h6> <li class="list-group-item">Job Performed as Aircraft Technician I</li></h6>
+                            <ul>
+                              <li> <a  href="" data-toggle="modal" data-target="#jdesc">Disassembly</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#pdesc">Product Verification</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#bsdesc">Bush Sizing</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#bhdesc">Bushing & Honning</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#assy">Assembly</a></li>
+
+
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    <div class="card-footer text-muted">
+                      In Safran Landing Gear MRO
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/A330.png' %}" alt="">
+                    <div class="card-header bg-primary text-white">
+                      <h5>A330/A340 Main Landing Gear</h5>
+
+                    </div>
+                    <div class="card-body">
+
+                      <ul class="list-group list-group-flush">
+                      <h6> <li class="list-group-item">Job Performed as Aircraft Technician I</li></h6>
+                          <ul>
+                              <li> <a  href="" data-toggle="modal" data-target="#jdesc">Disassembly</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#pdesc">Product Verification</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#bsdesc">Bush Sizing</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#bhdesc">Bushing & Honning</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#assy">Assembly</a></li>
+
+
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  <div class="card-footer text-muted">
+                    In Safran Landing Gear MRO
+                  </div>
+                  </div>
+
+                  <div class="card">
+                  <img class="card-img-top" src="{% static 'img/737ng.png' %}" alt="">
+                  <div class="card-header bg-primary text-white">
+                    <h5>B737NG Main Landing Gear</h5>
+
+                  </div>
+                  <div class="card-body">
+
+                    <ul class="list-group list-group-flush">
+                    <h6> <li class="list-group-item">Job Performed as Lead Aircraft Technician</li></h6>
+                        <ul>
+                          <li> <a  href="" data-toggle="modal" data-target="#jdesc">Disassembly</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#pdesc">Product Verification</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#bsdesc">Bush Sizing</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#bhdesc">Bushing & Honning</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#assy">Assembly</a></li>
+
+
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="card-footer text-muted">
+                  In Safran Landing Gear MRO
+                </div>
+                  </div>
+
+                  <div class="card">
+                  <img class="card-img-top" src="{% static 'img/747bodywlg.png' %}" alt="">
+                  <div class="card-header bg-primary text-white">
+                    <h6>B747 Wing/Body Main Landing Gear</h6>
+
+                  </div>
+                  <div class="card-body">
+
+                    <ul class="list-group list-group-flush">
+                    <h6> <li class="list-group-item">Job Performed as Aircraft Technician</li></h6>
+                        <ul>
+                          <li> <a  href="" data-toggle="modal" data-target="#jdesc">Disassembly</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#pdesc">Product Verification</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#bsdesc">Bush Sizing</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#bhdesc">Bushing & Honning</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#assy">Assembly</a></li>
+
+
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="card-footer text-muted">
+                  In Safran Landing Gear MRO
+                </div>
+                  </div>
+
+                  <div class="card">
+                      <img class="card-img-top" src="{% static 'img/dash8.png' %}" alt="">
+                      <div class="card-header bg-primary text-white">
+                        <h5>Dash-8 Main Landing Gear</h5>
+
+                      </div>
+                      <div class="card-body">
+
+                        <ul class="list-group list-group-flush">
+                        <h6> <li class="list-group-item">Job Performed as Aircraft Technician !</li></h6>
+                            <ul>
+                              <li> <a  href="" data-toggle="modal" data-target="#jdesc">Disassembly</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#pdesc">Product Verification</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#bsdesc">Bush Sizing</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#bhdesc">Bushing & Honning</a></li>
+                              <li> <a  href="" data-toggle="modal" data-target="#assy">Assembly</a></li>
+
+
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    <div class="card-footer text-muted">
+                      In Safran Landing Gear MRO
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/737cl.png' %}" alt="">
+                    <div class="card-header bg-primary text-white">
+                      <h5>B737- Classic Main Landing Gear</h5>
+
+                    </div>
+                    <div class="card-body">
+
+                      <ul class="list-group list-group-flush">
+                      <h6> <li class="list-group-item">Job Performed as Aircraft Technician !</li></h6>
+                          <ul>
+                            <li> <a  href="" data-toggle="modal" data-target="#jdesc">Disassembly</a></li>
+                            <li> <a  href="" data-toggle="modal" data-target="#pdesc">Product Verification</a></li>
+                            <li> <a  href="" data-toggle="modal" data-target="#bsdesc">Bush Sizing</a></li>
+                            <li> <a  href="" data-toggle="modal" data-target="#bhdesc">Bushing & Honning</a></li>
+                            <li> <a  href="" data-toggle="modal" data-target="#assy">Assembly</a></li>
+
+
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  <div class="card-footer text-muted">
+                    In Safran Landing Gear MRO
+                  </div>
+                  </div>
+
+                  <div class="card">
+                  <img class="card-img-top" src="{% static 'img/CRJ.png' %}" alt="">
+                  <div class="card-header bg-primary text-white">
+                    <h5>CRJ Main Landing Gear</h5>
+
+                  </div>
+                  <div class="card-body">
+
+                    <ul class="list-group list-group-flush">
+                    <h6> <li class="list-group-item">Job Performed as Lead Aircraft Technician</li></h6>
+                        <ul>
+                          <li> <a  href="" data-toggle="modal" data-target="#jdesc">Disassembly</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#pdesc">Product Verification</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#bsdesc">Bush Sizing</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#bhdesc">Bushing & Honning</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#assy">Assembly</a></li>
+
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="card-footer text-muted">
+                  In Safran Landing Gear MRO
+                </div>
+                  </div>
+
+                  <div class="card">
+                  <img class="card-img-top" src="{% static 'img/b777.png' %}" alt="">
+                  <div class="card-header bg-primary text-white">
+                    <h6>B777 Main Landing Gear</h6>
+
+                  </div>
+                  <div class="card-body">
+
+                    <ul class="list-group list-group-flush">
+                    <h6> <li class="list-group-item">Job Performed as Aircraft Technician</li></h6>
+                        <ul>
+                          <li> <a  href="" data-toggle="modal" data-target="#jdesc">Disassembly</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#pdesc">Product Verification</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#bsdesc">Bush Sizing</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#bhdesc">Bushing & Honning</a></li>
+                          <li> <a  href="" data-toggle="modal" data-target="#assy">Assembly</a></li>
+
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="card-footer text-muted">
+                  In Safran Landing Gear MRO
+                </div>
+                  </div>
+
+
+
+                </div>
+                </div>
+
+                </div>
+
+              </div>
+            </div>
+
+        </div>
+        </div>
+<!--Middle Management Positons-->
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="text-center text-white mb-0">
+                  <a href="#manageskill" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i>
+                      Management Skill </a>
+                </h4>
+              </div>
+              <div id="manageskill" class="card-body collapse">
+                  <div class="row mt-3">
+                  <div class="col">
+                  <div class=" card card-header">
+                    <div id="manage">
+                    <div class="dark-overlay">
+                      <h4 class="display-4 text-center text-white pt-5 pl-3" style="padding-top:10%;">Positions Held In Middle Management</h4>
+                      </div>
+                  </div>
+                  </div>
+
+
+                  <div id="cdsmall" class="card-deck px-2 py-2">
+
+                  <div class="card">
+                      <img class="card-img-top" src="{% static 'img/wshop1.png' %}" alt="">
+                      <div class="card-header bg-primary text-white">
+                        <h5>Production Planner</h5>
+
+                      </div>
+                      <div class="card-body">
+
+                        <ul class="list-group list-group-flush">
+                        <h6> <li class="list-group-item">Job Performed as Production Planner !</li></h6>
+
+                            <ul>
+
+                              <li>Responsible for overall Master Production Schedule planning of all Airbus/Boeing
+                                landing gears and piece parts of A319, A320, A321, A330, A340, B737 Classic, B737 NG, B747 * series, B777 and Dash8. </li>
+                              <li>Responsible for on-time delivery of gear and weekly progress report to the customer</li>
+                              <li>Conducting Weekly production meeting and update Customer service if any challenges. </li>
+                              <li>Quote Man hours and Material cost of repair gears</li>
+                              <li>Responsible for OT man power allocation.</li>
+
+
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    <div class="card-footer text-muted">
+                      In Safran Landing Gear MRO, Singapore (Nov 2010 – Aug 2013)
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/fw8.png' %}" alt="">
+                    <div class="card-header bg-primary text-white">
+                      <h5>Flow Manager-Hydraulics</h5>
+
+                    </div>
+                    <div class="card-body">
+
+                      <ul class="list-group list-group-flush">
+                      <h6> <li class="list-group-item">Job Performed as Flow Manager-Hydraulics</li></h6>
+                          <ul>
+                            <li>Leadership in communicating and facilitating team members towards alignment with business goals,
+                               Company Policies & regulations, policy deployment targets, work processes and other tasks</li>
+                            <li>Responsible for the process of Disassembly, NDT, Product verification, Plating, Machine Shop,
+                              Pre-assembly  for its  on-time delivery & quality in a lean manner using policy deployment and continuous improvement.</li>
+                            <li>Ensure value streams are in compliance with Lean Sigma practices, HSE, Ergonomics, best practices and group level policies.</li>
+                            <li>To Manage cost, OEE(Overall Equipment Effectiveness), optimized working capital and on-time delivery plan.</li>
+                            <li>Leadership in 6S, QRQC(Quick Response Quality Control), Kaizen events, Flow Leader Forum Projects, System Corrective Action Request(SCAR),
+                              Eight Disciplines(8D) problem solving and Lean Sigma tools application to identify root cause & implement preventive action in quality escapes.</li>
+                            <li>Technical Leadership & guidance to workshop personnel to ensure all works meets quality & Air worthiness directives requirements.</li>
+
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  <div class="card-footer text-muted">
+                    In Safran Landing Gear MRO, Singapore (Aug 2013 – Aug 2014)
+                  </div>
+                  </div>
+
+                  <div class="card">
+                  <img class="card-img-top" src="{% static 'img/mycabin.png' %}" alt="">
+                  <div class="card-header bg-primary text-white">
+                    <h5>Distribution Manager-Hydraulics</h5>
+
+                  </div>
+                  <div class="card-body">
+
+                    <ul class="list-group list-group-flush">
+                    <h6> <li class="list-group-item">Job Performed as Distribution Manager - Hydraulics </li></h6>
+                        <ul>
+                          <li>Leadership in communicating and facilitating team members towards alignment with business goals,
+                            Company Policies & regulations, policy deployment targets, work processes and other tasks</li>
+                         <li>Leadership to assigned personnel and to manage their performance and productivity including appraisals,
+                            development, absence, overtime, holidays, disciplinary adherence.</li>
+                         <li>Responsible for the process of Kitting, Final Assembly, Delivery Reports and Airworthiness
+                           certificates for its  on-time delivery & quality in a lean manner using policy deployment and continuous improvement.</li>
+                           <li>Responsible Master Production Schedule, Material Resource Planning and Inventory.</li>
+                          <li>Ensure value streams are in compliance with Lean Sigma practices, HSE, Ergonomics, best practices and group level policies.</li>
+                         <li>Ensure value streams are in compliance with Lean Sigma practices, HSE, Ergonomics, best practices and group level policies.</li>
+                          <li>Leadership in 6S, QRQC(Quick Response Quality Control), Kaizen events, Flow Leader Forum Projects, System Corrective Action Request(SCAR),
+                           Eight Disciplines(8D) problem solving and Lean Sigma tools application to identify root cause & implement preventive action in quality escapes.</li>
+                         <li>Technical Leadership & guidance to workshop personnel to ensure all works meets quality & Air worthiness directives requirements.</li>
+                         <li>Escalating Technical issues if any to Customer and updating weekly progress reports to Customer.</li>
+
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="card-footer text-muted">
+                  In Safran Landing Gear MRO, Singapore (Aug 2014 – Aug 2016)
+                </div>
+                  </div>
+
+                  <div class="card">
+                  <img class="card-img-top" src="{% static 'img/fw2.png' %}" alt="">
+                  <div class="card-header bg-primary text-white">
+                    <h5>Process Analyst</h5>
+
+                  </div>
+                  <div class="card-body">
+
+                    <ul class="list-group list-group-flush">
+                    <h6> <li class="list-group-item">Job Performed as Process Analyst</li></h6>
+                      <p>Analyzed multiple disparate data sets to analyze predict costing, staffing and revenue generation.
+                         Proactively designed and automated reporting system to expedite operational reporting.
+                          Standardized process, data and metrics to identify operational shortcomings.</p>
+                          <p> <strong>Personally Developed Applications (includes coding VB.net- Front end, Mssql server, MS Access- Back end):</strong> </p>
+                        <ul>
+                          <li>A dynamic database driven ‘Rough Cut Capacity Planning’ application has been designed, developed and implemented. </li>
+                          <li>Integrating newly designed processes flow from Marketing to Operations, to automate Master Production Schedule,
+                             Material Resource Planning by integrating existing material status in the inventory.</li>
+                          <li>Developed Digital Production Planning Control Visual board to monitor progress of individual Products. </li>
+                          <li>Developed and implemented automated quotation generator by integrating all the  Work Scope, Service Bulletin, Service Letters, Material and Labour cost.</li>
+
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="card-footer text-muted">
+                  In Safran Landing Gear MRO, Singapore (Aug 2016- Aug 2018)
+                </div>
+                  </div>
+
+
+
+
+
+                </div>
+                </div>
+
+                </div>
+
+              </div>
+            </div>
+
+        </div>
+        </div>
+
+        </div>
+
+    </div>
+
+
+
+  </div>
+
+
+</section>
+
+  <!--experience-->
+  <section id="photogallery" class="collapse">
+    <div class="card bg-info">
+      <div class="card-header">
+       <div id="myalbum">
+         <div class="dark-overlay2 text-white text-center pt-5">
+          <h1 class="display-4">My Gallery</h1>
+          <p class="lead">I have not taken any photos when I was in Navy since it was restricted area and there were the time no hand phone or digital cameras whereas in Singapore I have
+            taken more photos and mostly my galleries is decorated with that
+          </p>
+         </div>
+
+       </div>
+      </div>
+
+
+          <div class="card">
+            <div class="card-header text-center py-0">
+              <h4 class="text-dark"><a href="#">
+                Safran Photo Album
+              </a></h4>
+
+            </div>
+          </div>
+          <div class="card-body" >
+            <div class="row">
+
+                <a href="{% static 'img/gbt1.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Green Belt Training Pic-1"  data-footer="Conducted by Safran University at Singapore" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/gbt1.png' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/gb2.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Green Belt Training Pic-2"  data-footer="Conducted by Safran University at Singapore" class="col-md-3">
+                  <img class="img-fluid"  src="{% static 'img/gb2.png' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/gbt3.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Green Belt Training Pic-3"  data-footer="Conducted by Safran University at Singapore" class="col-md-3">
+                    <img class="img-fluid"  src="{% static 'img/gbt3.png' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/gb5.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Green Belt Training Pic-4"  data-footer="Conducted by Safran University at Singapore" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/gb5.png' %}" alt="">
+                </a>
+             </div>
+      <!--second row-->
+            <div class="row pt-2">
+              <a href="{% static 'img/gbt6.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Green Belt Training Pic-5"  data-footer="Conducted by Safran University at Singapore" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/gbt6.png' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/gbcert.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Green Belt certification"
+                data-footer="Certified by Mr.Phillip Distretti(Master Black Belt-Safran) and Mr.Paul Clifford (Managing Director-Safran,Singapore)" class="col-md-3">
+                  <img class="img-fluid"  src="{% static 'img/gbcert.png' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/wshop1.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Gemba-Walk- in Workshop"  data-footer="Assembly Line-Long range" class="col-md-3">
+                    <img class="img-fluid"  src="{% static 'img/wshop1.png' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/TW.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Team Building"  data-footer="A Photo Session-For Company Dashboard" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/TW.png' %}" alt="">
+                </a>
+            </div>
+
+ <!--Third row-->
+            <div class="row pt-2">
+              <a href="{% static 'img/walk.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Trekking at Mount Faber Park"
+              data-footer="Nice walk with my Colleaques" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/walk.png' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/walk1.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Trekking Event"
+                data-footer="My Colleaques" class="col-md-3">
+                  <img class="img-fluid"  src="{% static 'img/walk1.png' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/tB2.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Team Bonding"  data-footer="Team Bonding" class="col-md-3">
+                    <img class="img-fluid"  src="{% static 'img/tB2.png' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/seniorplanner.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Senior Planner-Teo Hock Swan"  data-footer="My Guru" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/seniorplanner.png' %}" alt="">
+                </a>
+            </div>
+
+
+<!--Fourth row-->
+             <div class="row pt-2">
+              <a href="{% static 'img/ramesh.jpg' %}" data-toggle="lightbox" data-gallery="safran" data-title="Dragon Boat Race"
+              data-footer="My Colleaques- From Value Stream Hydraulics" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/ramesh.jpg' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/paul.jpg' %}" data-toggle="lightbox" data-gallery="safran" data-title="English Style Celebration-Cake Cutting"
+                data-footer="Mr. Paul Clifford MD and all employees" class="col-md-3">
+                  <img class="img-fluid"  src="{% static 'img/paul.jpg' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/ok.jpg' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture-1"
+                data-footer="From Value Stream Regional and Value Stream Long Range Team" class="col-md-3">
+                    <img class="img-fluid"  src="{% static 'img/ok.jpg' %}" alt="">
+                </a>
+
+                <a href="{% static 'img/Itteam.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="IT Team"
+                data-footer="My Last Team- I have worked with (Nice People)" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/Itteam.png' %}" alt="">
+                </a>
+            </div>
+
+     <!--Fifth row-->
+     <div class="row pt-2">
+      <a href="{% static 'img/fwengineer.png' %}"  data-toggle="lightbox" data-gallery="safran" data-title="With My Close Buddys"
+      data-footer="Valery, Ee Chai, Keith (Lovely Peoples)" class="col-md-3">
+        <img class="img-fluid"  src="{% static 'img/fwengineer.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fw1.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Farewell Picture from Hydraulic"
+        data-footer="With Azril" class="col-md-3">
+          <img class="img-fluid"  src="{% static 'img/fw1.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fw2.png' %}"  data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+        data-footer=" With Soe Moe, Roger" class="col-md-3">
+            <img class="img-fluid"  src="{% static 'img/fw2.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fw3.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farwell Picture"
+        data-footer="My Last Team- I have worked with (Nice People)" class="col-md-3">
+        <img class="img-fluid"  src="{% static 'img/fw3.png' %}" alt="">
+        </a>
+    </div>
+
+     <!--Sixth row-->
+     <div class="row pt-2">
+
+      <a href="{% static 'img/fw5.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+      data-footer="With Raja, Iwan at Assembly Line-Regional" class="col-md-3">
+        <img class="img-fluid"  src="{% static 'img/fw5.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fw6.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="Farewell Picture -Long Range"
+        data-footer="With Hishaam" class="col-md-3">
+          <img class="img-fluid"  src="{% static 'img/fw6.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fw8.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+        data-footer=" With Reynan and Jeffrey - Assembly Line- Long Range" class="col-md-3">
+            <img class="img-fluid"  src="{% static 'img/fw8.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fw9.png' %}"  data-toggle="lightbox" data-gallery="safran" data-title="My Farwell Picture"
+        data-footer="With Malik, John, Appe" class="col-md-3">
+        <img class="img-fluid"  src="{% static 'img/fw9.png' %}" alt="">
+        </a>
+    </div>
+
+
+    <div class="row pt-2">
+      <a href="{% static 'img/fw10.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+      data-footer="With Dadang Mulyana-Team Leader - Value Stream Regional- Assembly Line" class="col-md-3">
+        <img class="img-fluid"  src="{% static 'img/fw10.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fw12.png' %}"data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+        data-footer="With Aidle, Shaidi - Technical Specialist" class="col-md-3">
+          <img class="img-fluid"  src="{% static 'img/fw12.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/FW15.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+        data-footer=" With Finance, MArketing and IT Team" class="col-md-3">
+            <img class="img-fluid"  src="{% static 'img/FW15.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/FW16.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farwell Picture"
+        data-footer=" With Finance, MArketing and IT Team" class="col-md-3">
+        <img class="img-fluid"  src="{% static 'img/FW16.png' %}" alt="">
+        </a>
+    </div>
+
+    <div class="row pt-2">
+      <a href="{% static 'img/FW21.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+      data-footer=" With Finance, MArketing and IT Team" class="col-md-3">
+        <img class="img-fluid"  src="{% static 'img/FW21.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/FW23.png' %}"data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+        data-footer=" With Finance, MArketing and IT Team"  class="col-md-3">
+          <img class="img-fluid"  src="{% static 'img/FW23.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fW24.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+        data-footer=" With my Indian Colleaques" class="col-md-3">
+            <img class="img-fluid"  src="{% static 'img/fW24.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fW27.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farwell Picture"
+        data-footer=" With Finance, MArketing and IT Team" class="col-md-3">
+        <img class="img-fluid"  src="{% static 'img/fW27.png' %}" alt="">
+        </a>
+    </div>
+
+    <div class="row pt-2">
+      <a href="{% static 'img/FW28.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+      data-footer=" With My Team IT Team and Bee leng(Finance)" class="col-md-3">
+        <img class="img-fluid"  src="{% static 'img/FW28.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fW31.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+        data-footer=" With Finance, MArketing and IT Team"  class="col-md-3">
+          <img class="img-fluid"  src="{% static 'img/fW31.png' %}" alt="">
+        </a>
+
+        <a href="{% static 'img/fwndt.png' %}" data-toggle="lightbox" data-gallery="safran" data-title="My Farewell Picture"
+        data-footer=" With Boopalan (NDT Specialist)" class="col-md-3">
+            <img class="img-fluid"  src="{% static 'img/fwndt.png' %}" alt="">
+        </a>
+
+    </div>
+
+
+          </div>
+
+        </div>
+
+   </section>
+
+<!--Skills-->
+  <section id="skills" class="collapse">
+      <div class="card card-body bg-secondary text-white text-center p-3">
+        <h1>Welcome To My Works Page</h1>
+      </div>
+
+
+
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header text-center bg-dark">
+          <h3>
+            <a  class="text-white" href="#"> Click below buttons to know more</a>
+          </h3>
+        </div>
+      </div>
+<!---copy cards for inside accordion -- Indian Navy work place-->
+    <div class="card">
+    <div class="card-header text-black">
+      <h4 class="text-center mb-0">
+        <a href="#navywork" data-toggle="collapse" data-parent="#accordion">
+          <i class="fas fa-arrow-circle-down"></i>
+            Establishments I have worked in Indian navy - Click Here </a>
+      </h4>
+    </div>
+    <div id="navywork" class="collapse" >
+      <div class="card-body bg-secondary" >
+          <div class="row justify-content-center text-white">
+            <div class="col-md-6 m-auto">
+            <img class="img-fluid d-md-block" src="{% static 'img/navylogo.png' %}" alt="">
+            </div>
+          </div>
+             <hr>
+              <h1 class="display-4 text-white">Where I have worked</h1>
+              <p class="lead text-white">On my 30 years of experience the first 15 years I served  in Indian Naval Aviation in a technical cadre and the next 15
+                years in commercial aircraft at Singapore.
+              </p>
+
+              <div class="row mt-3">
+                <div class="card-group px-2">
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/islander.png' %}" alt="">
+                    <div class="card-header bg-danger text-white">
+                      <h5>Indian Naval Air Squadron -550</h5>
+                      <h6>INS Garuda, Kochi, India</h6>
+                    </div>
+                    <div class="card-body">
+                      <h4>Leading Aircraft Mechanic</h4>
+                      <p> It is my first squadron. Lot of new experiences and it was very exciting to work in aircraft.   </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                      Year:1987-1990
+                    </div>
+                  </div>
+
+
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/nas561.png' %}" alt="">
+                    <div class="card-header bg-danger text-white">
+                      <h5>Indian Naval Air Squadron -561</h5>
+                      <h6>INS Garuda, Kochi, India</h6>
+                    </div>
+                    <div class="card-body">
+                      <h4>Naval Aircraft Mechanic-I</h4>
+                      <p> It is my second squadron. Again new experiences with rotary wing aircraft. More fun and work.
+                        Lot of flying and outstation duties and learnt a lot  </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                      Year:1991-1992
+                    </div>
+                  </div>
+
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/Rajali.png' %}" alt="">
+                    <div class="card-header bg-danger text-white">
+                      <h5>Air Engineering Dept</h5>
+                      <h6>INS Rajali, Arakkonam, India</h6>
+                    </div>
+                    <div class="card-body">
+                      <h4>Lead Aircraft Mechanic, Petty Officer(Air Fitter)</h4>
+                      <p> I stepped in INS Rajali exactly on 11 Mar 1992, INS Rajali commisioned into the service. The weather was very hot.
+                        Initially I was a part of setting up
+                        of new workshops has been carried out. I was part of the team of
+                        first Chetak IN444 roll out after 800hrs inspection  </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                      Year:1992-1998
+                    </div>
+                  </div>
+
+              </div>
+              </div>
+
+              <div class="row mt-3">
+                <div class="card-group px-2">
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/insparunthu.png' %}" alt="">
+                    <div class="card-header bg-danger text-white">
+                      <h5>Indian Naval Air Squadron -321</h5>
+                      <h6>Naval Air Station(Uchipuli), Ramanathapuram, India</h6>
+                    </div>
+                    <div class="card-body">
+                      <h4>Petty Officer Air Fitter</h4>
+                      <p>This was a very remote airbase with limited facilities and resources.
+                        I was a one among the Chetak aircraft maintenance crew of INAS-321, posted there to support operation for 02 years.
+                        There my role was Aircraft maintenance Supervisor </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                      Year:1998-2000
+                    </div>
+                  </div>
+
+
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/Nayk.png' %}" alt="">
+                    <div class="card-header bg-danger text-white">
+                      <h5>Pegasus Engine Repair OVerhaul Facility</h5>
+                      <h6>Naval Aircraft Yard, Kochi, India</h6>
+                    </div>
+                    <div class="card-body">
+                      <h4>Petty Officer Air Fitter</h4>
+                      <p>Pegasus engine is a ROLLS ROYCE product, integrated with Sea Harrier aircraft.
+                        It is a special bird in Indian Navy which can take off and land verticaly by its vectored thrust nozzle. I was part of production control team
+                        to check all the engine log card, create job card, maintaining all engine components life data and it's tools.   </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                      Year:2000- 2001
+                    </div>
+                  </div>
+
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/Rajali.png' %}" alt="">
+                    <div class="card-header bg-danger text-white">
+                      <h5>Air Engineering Dept</h5>
+                      <h6>INS Rajali, Arakkonam, India</h6>
+                    </div>
+                    <div class="card-body">
+                      <h4>Lead Aircraft Mechanic, Petty Officer(Air Fitter)</h4>
+                      <p> I stepped in INS Rajali exactly on 11 Mar 1992, INS Rajali commisioned into the service. The weather was very hot.
+                        Initially I was a part of setting up
+                        of new workshops has been carried out. I was part of the team of
+                        first Chetak IN444 roll out after 800hrs inspection  </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                      Year:1992-1998
+                    </div>
+                  </div>
+
+              </div>
+              </div>
+      </div>
+    </div>
+
+  </div>
+<!-- Indian Navy Trainings-->
+      <div class="card">
+        <div class="card-header text-black">
+          <h4 class=" text-center mb-0">
+            <a  href="#navytraining" data-toggle="collapse" data-parent="#accordion">
+              <i class="fas fa-arrow-circle-down"></i>
+                My Trainings- Indian Navy </a>
+          </h4>
+        </div>
+        <div id="navytraining" class="collapse" >
+          <div class="card-body bg-secondary" >
+              <div class="row justify-content-center text-white">
+                <div class="col-md-6 m-auto">
+                <img class="img-fluid d-md-block" src="{% static 'img/navylogo.png' %}" alt="">
+                </div>
+              </div>
+                <hr>
+                  <h1 class="display-4 text-white">My Trainings - Indian Navy</h1>
+                  <p class="lead text-white"> In my 15 Years of Indian Naval Service from 1987 to 2001,
+                    I have undergone various trainings in various naval establishments. Scroll below for more detail..
+                  </p>
+
+
+
+                  <div class="row mt-3">
+                    <div class="card-group px-2">
+
+                      <div class="card">
+                        <img class="card-img-top" src="{% static 'img/inschilka.png' %}" alt="">
+                        <div class="card-header bg-danger text-white">
+                          <h5>INS Chilka</h5>
+                          <h6>Orissa, India</h6>
+                        </div>
+                        <div class="card-body">
+                          <h4>Metric Entry Recruit</h4>
+                          <p> This was the first and  the very basic training for every recruit who joins in the Indian Navy. The duration period was 24 weeks
+                            and each day passes with big sigh. The training covered physical, mental and weapon training.     </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                          Year:1986-1987
+                        </div>
+                      </div>
+
+
+
+                      <div class="card">
+                        <img class="card-img-top" src="{% static 'img/Vikrant.png' %}" alt="">
+                        <div class="card-header bg-danger text-white">
+                          <h5>INS Vikrant</h5>
+                          <h6>Mumbai, India</h6>
+                        </div>
+                        <div class="card-body">
+                          <h4>DE-NAM</h4>
+                          <p> The next one was ship training. I was transferred to INS Vikrant for ship training for the duration of 08 weeks.
+                            It was a wonderful exciting period. As a trainee, I invloved almost all the ship the activities including sailing along with onoing war exercise.
+                          I can't forget witnessing Alize, Sea Harrier aricrafts take off and Landings. </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                          Year:1987-1987
+                        </div>
+                      </div>
+
+
+                      <div class="card">
+                        <img class="card-img-top" src="{% static 'img/safna.png' %}" alt="">
+                        <div class="card-header bg-danger text-white">
+                          <h5>School For Naval Aviation</h5>
+                          <h6>INS Garuda, Kochi</h6>
+                        </div>
+                        <div class="card-body">
+                          <h4>Direct Entry-Naval Aircraft Mechanic</h4>
+                          <h6>Twice Trained during 15 years tenure</h6>
+                          <p> It is a four week course and taught about general non technical aspects like airport symbols,
+                            marshalling, safety zone and safety equipments. </p>
+                            <ul>
+                              <li> 1987- attended 04 weeks training</li>
+                              <li> 1991- attend 04 weeks training prior to Leading Aircraft Mechanic course </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-muted">
+                          Year:1987-1987
+                        </div>
+                      </div>
+
+                  </div>
+                  </div>
+
+
+                  <div class="row mt-3">
+                    <div class="card-group px-2">
+
+                      <div class="card">
+                        <img class="card-img-top" src="{% static 'img/niat.png' %}" alt="">
+                        <div class="card-header bg-danger text-white">
+                          <h5>Naval Institute of Aeronautical Technology</h5>
+                          <h6>INS Garuda, Kochi</h6>
+
+                        </div>
+                        <div class="card-body">
+                          <h6>Naval Aircraft Mechanic,<br> Leading Aircraft Mechanic, <br> Chief Petty Officer Air Fitter</h6>
+                          <p>This is our parent training base for all air technical professional trainings. I was allocated 'B'
+                            stream, which covers basic aerodynamics, propulsion, materials, power assisted systems theory along with
+                            ALize, SeaHarrier, Islander and Chetak aircraft familiarisation. The course duration was 24 week.</p>
+                            <ul>
+                              <li>Naval Aircraft Mechanic - Course- 24 weeks</li>
+                              <li>Leading Aircraft Mechanic- Course- 24 weeks</li>
+                              <li>Chief Petty Officer AirFitter Course-12 weeks</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-muted">
+                          Year:1987, 1991, 1998
+                        </div>
+                      </div>
+
+
+
+                      <div class="card">
+                        <img class="card-img-top" src="{% static 'img/insdega.png' %}" alt="">
+                        <div class="card-header bg-danger text-white">
+                          <h5>INS Dega</h5>
+                          <h6>Vishaakapattinam, India</h6>
+                        </div>
+                        <div class="card-body">
+                          <h4>Petty Officer Board</h4>
+                          <p>For Petty Officer promotion, one has to qualify the board exam,
+                            conducted by the Naval Headquarter.I passed my board exam
+                            at INS Dega. </p>
+                            <h6>Board Exam consists of</h6>
+                            <ul>
+                              <li>Written Exam</li>
+                              <li>Oral Exam</li>
+
+                            </ul>
+                        </div>
+                        <div class="card-footer text-muted">
+                          Year:2000- 2001
+                        </div>
+                      </div>
+
+
+                      <div class="card">
+                        <img class="card-img-top" src="{% static 'img/Insagrani.png' %}" alt="">
+                        <div class="card-header bg-danger text-white">
+                          <h5>Leadership Course</h5>
+                          <h6>INS Agrani, Coimbatore, India</h6>
+                        </div>
+                        <div class="card-body">
+                          <h4>Petty Officer Air Fitter</h4>
+                          <p> It was a 04 week course and one had to qualify this Leadership training conducted by INS Agrani to get promted as Chief Petty officer Air Fitter. I completed
+                            this training on 1998  </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                          Year:1998
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+          </div>
+        </div>
+
+      </div>
+ <!-- Singapore Work-->
+      <div class="card">
+    <div class="card-header text-black">
+      <h4 class=" text-center mb-0">
+        <a  href="#singapore" data-toggle="collapse" data-parent="#accordion">
+          <i class="fas fa-arrow-circle-down"></i>
+            Aviation Journey- Singapore </a>
+      </h4>
+    </div>
+    <div id="singapore" class="collapse" >
+      <div class="card-body bg-secondary" >
+          <div class="row justify-content-center text-white">
+            <div class="col">
+            <img class="img-fluid d-md-block" src="{% static 'img/singapore.png' %}" alt="">
+            </div>
+          </div>
+            <hr>
+              <h1 class="display-4 text-white">My Workplace at Singapore</h1>
+              <p class="lead text-white">The next 15 Years of life in the commercial Aviation  from 2003 to 2018.
+              </p>
+
+
+              <div class="row mt-3">
+                <div class="card-group px-2">
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/mazak.png' %}" alt="">
+                    <div class="card-header bg-danger text-white">
+                      <h5>Milestone Engineering Pte. Ltd</h5>
+                      <h6>Singapore</h6>
+                    </div>
+                    <div class="card-body">
+                      <h4>CNC- Mazak Laser Programmer</h4>
+                      <p> It was a very strange experince in the foreign land to adapt the working cultures, languages and food etc.
+                        Actually after service I added extra skill like CNC programming and it helped me to crossover to the foreing land. I have worked
+                        as a CNC programmer for 18 months </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                      Year:2003-2005
+                    </div>
+                  </div>
+
+
+
+                  <div class="card">
+                    <img class="card-img-top" src="{% static 'img/safran.png' %}" alt="">
+                    <div class="card-header bg-danger text-white">
+                      <h5><a href="https://www.safran-landing-systems.com/singapore-mro">Safran Landing Systems</a></h5>
+                      <h6>Singapore</h6>
+                    </div>
+                    <div class="card-body">
+                      <h4>Process Analyst</h4>
+                      <p> I joined in this company on Aug-2005. Safran Is big group, but I joined in Landing gear MRO(Maintenance repair Overhaul) group as
+                        Technician I. I gained lot of knowledge in the MRO industry and worked on various commercial aircraft Landing Gears. I have
+                        gradually developed myself and got promoted until Production Manager. Please see in the skills page </p>
+                        <h6>Positions held during my tenure</h6>
+                        <ul>
+                          <li> Aircraft Technician I - 03 Years</li>
+                          <li>Lead Aircraft Technician - 02 Years</li>
+                          <li>Production Planner - 03 Years</li>
+                          <li>Flow Manager - 02 Years</li>
+                          <li>Distribution Manager -01 Year</li>
+                          <li>Process Analyst - 02 Years</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer text-muted">
+                      Year: 2005-2018
+                    </div>
+                  </div>
+              </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+  </div>
+  </section>
+<!--others-->
+  <section id="others" class="collapse">
+    <div class="card card-body bg-danger text-white text-center p-3 mb-2">
+      <h1 class="display-4">General Information</h1>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <h3 class="text-center">Language Skills</h3>
+      </div>
+    </div>
+    <div class="card-deck mt-3 mx-3">
+      <div class="card">
+        <div class="card-body bg-light">
+        <h4>Tamil(Mother Tonque)</h4>
+        <ul class="list-group list-group-flush bg-light">
+          <li class="list-group-item"><h5>Read:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 99%;"></div>
+            </div>
+          </li>
+          <li class="list-group-item"><h5>Write:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 99%;"></div>
+            </div>
+          </li>
+          <li class="list-group-item"><h5>Speak:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 95%;"></div>
+            </div>
+          </li>
+          <li class="list-group-item"><h5>Listen:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 95%;"></div>
+            </div>
+          </li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body bg-light">
+          <h4>English(Non Native)</h4>
+          <ul class="list-group list-group-flush bg-light">
+            <li class="list-group-item"><h5>Read:</h5>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="list-group-item"><h5>Write:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 92%;"></div>
+            </div>
+          </li>
+          <li class="list-group-item"><h5>Speak:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 85%;"></div>
+            </div>
+          </li>
+          <li class="list-group-item"><h5>Listen:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 80%;"></div>
+            </div>
+          </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body bg-light">
+          <h4>Hindi(Non Native)</h4>
+          <ul class="list-group list-group-flush bg-light">
+            <li class="list-group-item"><h5>Read:</h5>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width: 40%;"></div>
+              </div>
+            </li>
+            <li class="list-group-item"><h5>Write:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 20%;"></div>
+            </div>
+          </li>
+          <li class="list-group-item"><h5>Speak:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 70%;"></div>
+            </div>
+          </li>
+          <li class="list-group-item"><h5>Listen:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 70%;"></div>
+            </div>
+          </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body bg-light">
+          <h4>Malayalam</h4>
+          <ul class="list-group list-group-flush bg-light">
+            <li class="list-group-item"><h5>Read:</h5>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width: 10%;"></div>
+              </div>
+            </li>
+            <li class="list-group-item"><h5>Write:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 1%;"></div>
+            </div>
+          </li>
+          <li class="list-group-item"><h5>Speak:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 50%;"></div>
+            </div>
+          </li>
+          <li class="list-group-item"><h5>Listen:</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 55%;"></div>
+            </div>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mt-3">
+      <div class="card-header">
+        <h3 class="text-center">Hobbies</h3>
+      </div>
+      <div class="card-body bg-dark">
+        <h5><a  class="text-white" href="#">Travel & Photography</a></h5>
+        <p class="lead text-white">  Traveling is my main hobby and  my dream too. I would like to go around this planet and explore the cultures. So far I have
+          visited Singapore, Malaysia, Srilanka, Cambodia, Vietnam and Thailand. The Journey doesn't stop here. Looking for more to come.. The below are some of the best snaps taken..  </p>
+
+          <div class="row">
+
+              <a href="{% static 'img/kodiveri.jpg' %}" data-toggle="lightbox" data-gallery="myfoto" data-title="Family Gathering"  data-footer="Kodiveri, Tamilnadu, India" class="col-md-3">
+              <img class="img-fluid"  src="{% static 'img/kodiveri.jpg' %}" alt="">
+              </a>
+
+              <a href="{% static 'img/singapore.jpg' %}" data-toggle="lightbox" data-gallery="myfoto" data-title="Raffles Place, Singapore"  data-footer="Weekend Family- Outing" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/singapore.jpg' %}" alt="">
+              </a>
+
+              <a href="{% static 'img/kundupallam.jpg' %}" data-toggle="lightbox" data-gallery="myfoto" data-title="Family-Gathering"  data-footer="Kunderipallam, Tamilnadu,India" class="col-md-3">
+                  <img class="img-fluid"  src="{% static 'img/kundupallam.jpg' %}" alt="">
+              </a>
+
+              <a href="{% static 'img/cambodia1.JPG' %}" data-toggle="lightbox" data-gallery="myfoto" data-title="Cambodia1"  data-footer="Ankorwat- Cambodia" class="col-md-3">
+              <img class="img-fluid"  src="{% static 'img/cambodia1.JPG' %}" alt="">
+              </a>
+           </div>
+
+         <div class="row mt-3">
+
+            <a href="{% static 'img/cambodia2.JPG' %}" data-toggle="lightbox" data-gallery="myfoto" data-title="Ankorwat"  data-footer="Siem Reap, Cambodia" class="col-md-3">
+            <img class="img-fluid"  src="{% static 'img/cambodia2.JPG' %}" alt="">
+            </a>
+
+            <a href="{% static 'img/krabi.JPG' %}"  data-toggle="lightbox" data-gallery="myfoto" data-title="Krabi"  data-footer="Thailand" class="col-md-3">
+              <img class="img-fluid"  src="{% static 'img/krabi.JPG' %}" alt="">
+            </a>
+
+            <a href="{% static 'img/andaman.jpg' %}" data-toggle="lightbox" data-gallery="myfoto" data-title="Neil Laxmanpur Beach"  data-footer="Andaman" class="col-md-3">
+                <img class="img-fluid"  src="{% static 'img/andaman.jpg' %}" alt="">
+            </a>
+
+            <a href="{% static 'img/halong.jpg' %}" data-toggle="lightbox" data-gallery="myfoto" data-title="Halong Bay"  data-footer="Vietnam" class="col-md-3">
+            <img class="img-fluid"  src="{% static 'img/halong.jpg' %}" alt="">
+            </a>
+         </div>
+
+        </div>
+
+        <div class="card mt-3">
+          <div class="card-header bg-dark">
+            <h3 class="text-white text-center">Contact Me {{Message}}</h3>
+
+          </div>
+
+        <div class="card-body bg-dark">
+          <div class="row">
+            <div class="col-md-6 mx-auto">
+              <form  action="{% url 'index' %}" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                  <input type="text" name="message-name" class="form-control" value="" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" name="message-email" class="form-control" value="" placeholder="Email">
+                </div>
+                <div class="form-group">
+                <textarea name="message"class="form-control" rows="8" cols="80"  placeholder="Message"></textarea>
+                </div>
+
+                <input type="submit" class="btn btn-primary btn-lg align-self-center" data-toggle="modal" data-target="#lljob" name="" value="Submit">
+
+
+
+              </form>
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+        </div>
+
+    </div>
+
+  </section>
+  <!--Thank yoy message -->
+  {% if messages %}
+<div class="alert alert-success alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+   <span aria-hidden="true">&times;</span>
+ </button>
+  {% for message in messages %}
+    <p>{{ message }}</p>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!--{% if Message %}
+  <div class="row py-3">
+    <div class="col text-center text-white">
+      <h3>Thank you {{Message}}</h3>
+      <p> For Sending email. We will contact you shortly </p>
+    </div>
+
+  </div>
+{% endif %}-->
+
+
+
+<!--  Footer -->
+<footer id="main-footer" class="p-5 bg-dark text-white">
+  <div class="row">
+    <div class="col-md-6">
+      <a class="btn btn-outline-light" href="{% static 'img/Chandraresumed.docx' %}" download="Chandraresumed.docx"> <i class="fas fa-cloud"></i> Download Resume </a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  </div>
+<!-- modal jdesc-->
+ <div class="modal fade" id="jdesc">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+            <div class="modal-title">
+              Job Descriptions
+            </div>
+              <button class="close" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+
+          </div>
+      <div class="modal-body">
+        <h5>Disassembly</h5>
+        <p>The entire landing gear or Piece parts are disassembled according to the CMM(Component Maintenance Manual) instructions. Most of the parts will go for paint stripping
+          followed by blasting machine to remove paints. The process router are extracted process/work instructions from CMM, are customised in a way to a group pf
+          parts or a single part(if a part is big and required to branch out to follow unique repair in its subsequent process). These process routers are printed out with unique job number
+          and  attach with part and send across to different process shops like, baking, product verification or Non Destructive Testing etc... based on router workflow
+        </p>
+      </div>
+
+     </div>
+   </div>
+ </div>
+<!-- modal pdesc-->
+<div class="modal fade" id="pdesc">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+           <div class="modal-title">
+             <h5>Job Description</h5>
+           </div>
+             <button class="close" data-dismiss="modal">
+               <span>&times;</span>
+             </button>
+
+         </div>
+     <div class="modal-body">
+       <h5>Product Verification</h5>
+       <p> Each router has additional sheets called 'Inspection Condition Report' which is the extraction from the CMM data, specific to the part of the router which is attached.
+         It calls technician to measure certain dimension of the part using precison tools like micrometers, vernier calipers, dial bore gauge etc and to be recorded in the ICR Sheet.
+         Technician need to corelate CMM along with ICR sheet to have further clarity. In the case of pitting(corrosion) need to direct the part for machining for major rework and
+         some are to be cleared with hand held blenders. Some parts after rework need to go for concession(OEM Approval) incase if the rework limit is exceeded the CMM limitations.
+         So it requires more technical knowledge to route the part for further process, if rework need to be carried out...
+
+       </p>
+     </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- modal bsdesc (bush sizing-->
+<div class="modal fade" id="bsdesc">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+           <div class="modal-title">
+             <h5>Job Description</h5>
+           </div>
+             <button class="close" data-dismiss="modal">
+               <span>&times;</span>
+             </button>
+
+         </div>
+     <div class="modal-body">
+       <h5>Bush Sizing</h5>
+       <p> The most of the landing gear pivot joints are provided with bush. Basically it makes cost effective to repair landing gear parts only by changing bushes.
+         The technician plays a vital role in sizing bushing. The bush dimension need to be precisely sized, based on wear and tear of the parts joints or
+          based on the rework dimension. All these bushes are installed in the component using heat & Shrink method.
+            Once the bush sizing is done it should be sent inhouse machine shop(must have approval to fabricate) or outhouse approved machine shop.(approved vendor)
+
+       </p>
+     </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- modal bhdesc (bushing and horning-->
+<div class="modal fade" id="bhdesc">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+           <div class="modal-title">
+             <h5>Job Description</h5>
+           </div>
+             <button class="close" data-dismiss="modal">
+               <span>&times;</span>
+             </button>
+
+         </div>
+     <div class="modal-body">
+       <h5>Bushing and Horning</h5>
+       <p> The bushing and honning process is done after completion of major process like rework, plating etc.. but prior to painting. By the time the pre-assembly section
+         receive all the sized bushing kept ready to install on the part. Most of the bushes are installed using heat shrink method( shrink by liquid Nitrogen). Once bush
+         installed all the crevices between bush flange and part are need to be sealed using proper sealant.
+       </p>
+     </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- modal bhdesc (Assembly)-->
+<div class="modal fade" id="assy">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+           <div class="modal-title">
+             <h5>Job Description</h5>
+           </div>
+             <button class="close" data-dismiss="modal">
+               <span>&times;</span>
+             </button>
+
+         </div>
+     <div class="modal-body">
+       <h5>Final Assembly</h5>
+       <p> Though I have worked in all the section, I like doing assembly always. Check all the parts are completed all the required process and file the routers
+         separately. All the painted items, new items, spares, consumables are  collected and segregated module wise. Then start assembling shock strut & do pressure test.
+         Rest of  assembling like side stay, Lock stay and main fitting goes on concurrently. Electric wiring isntallation,continuity check and setting proximity sensors & Testing
+         lubricating joints, finalising loose items and  additional items and place it on the shipping crate.  Concurrently sign all the job cards for the job carried out. Finally
+         the whole paper work submit to the Certifying staff for cerification.(ARC-Authorised Release Certificate)
+
+       </p>
+     </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- modal looking for Job (ljob)-->
+<div class="modal fade" id="ljob">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-primary">
+           <div class="modal-title">
+             <h5 class="text-white">Hi! I am looking for a job</h5>
+           </div>
+             <button class="close" data-dismiss="modal">
+               <span>&times;</span>
+             </button>
+
+         </div>
+     <div class="modal-body">
+       <h5>Please Check My Pages</h5>
+       <p> I 'm looking for a job currently. I can able to relocate any part of the world as long as I get offer with decent job and
+         decent pay to take care of me and my family. If you think I 'm a right candidate for your firm, feel free to contact me
+          through phone or email or social media whatever you like... <br><br><br>
+          Regards, <br>
+          Athmanathan Chandrasekar <br> <br>
+
+       </p>
+     </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script>
+   $('.port-item').click(function(){
+     $('.collapse').collapse('hide');
+
+   });
+
+
+   $('.card-header').click(function() {
+            $(this).find('i').toggleClass('fas fa-arrow-circle-down fas fa-arrow-circle-up');
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+      e.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    $('.alert').alert()
+
+  </script>
+</body>
+
+</html>

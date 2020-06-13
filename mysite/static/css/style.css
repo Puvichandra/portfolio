@@ -1,0 +1,169 @@
+#main-header img {
+    height: 100%;
+    width: 100%;
+}
+
+#main-header h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#main-header .port-item {
+    width: 40%;
+   }
+
+
+#main-header .port-item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.bg-black {
+    background-color: black;
+}
+
+#accordion a {
+    color: black;
+}
+#skillheader {
+    background: url("../img/gb2.png");
+    position: relative;
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    }
+
+#wight {
+    background: url("../img/oliver.jpg");
+    position: relative;
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 350px;
+}
+
+
+.dark-overlay1 {
+    min-height: 350px;
+    position:relative;
+    top: 0;
+    left: 0;
+    width:100%;
+
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#aircraft {
+    background: url("../img/sh.png");
+    position: relative;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+
+}
+#manage {
+    background: url("../img/team1.png");
+    position: relative;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+
+}
+
+#lgear {
+    background: url("../img/landingear.jpg");
+    position: relative;
+    background-attachment: scroll;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+
+}
+
+#myalbum {
+  background: url("../img/cover2.png");
+  position: relative;
+  background-attachment: scroll;
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+
+}
+.dark-overlay2 {
+  min-height: 200px;
+  position:relative;
+  top: 0;
+  left: 0;
+  width:100%;
+
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.dark-overlay {
+    min-height: 200px;
+    position:relative;
+    top: 0;
+    left: 0;
+    width:100%;
+
+    background: rgba(0, 0, 0, 0.4);
+}
+
+@media(min-width:1199px) {
+    .port-item {
+        padding: 3em !important;
+    }
+
+}
+
+body {
+    padding-top: 20px;
+  }
+
+  #cdnorm {
+    margin: 0 -15px;
+    justify-content: space-between;
+  }
+
+  #cdnorm .card {
+    margin: 0 0 1rem;
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    #cdnorm .card {
+      -ms-flex: 0 0 48.7%;
+      flex: 0 0 48.7%;
+    }
+
+    #cdsmall .card {
+      -ms-flex: 0 0 48.7%;
+      flex: 0 0 48.7%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #cdnorm .card {
+      -ms-flex: 0 0 32%;
+      flex: 0 0 32%;
+    }
+    #cdsmall .card {
+      -ms-flex: 0 0 48.7%;
+      flex: 0 0 48.7%;
+    }
+
+  }
+
+  @media (min-width: 992px)
+  {
+    #cdsmall .card {
+      -ms-flex: 0 0 47.9%;
+      flex: 0 0 47.9%;
+    }
+
+    #cdnorm .card {
+      -ms-flex: 0 0 24%;
+      flex: 0 0 24%;
+    }
+  }
